@@ -121,7 +121,7 @@ public abstract class SynoApiRequest<T extends SynoApiResponse> implements SynoA
 
         try {
             // String loginUrl =
-            // "http://192.168.178.54:5000/webapi/auth.cgi?api=SYNO.API.Auth&method=Login&version=3&account=nibil&passwd=av$syn20576&session=SurveillanceStation&format=sid";
+            // "http://192.168.178.54:5000/webapi/auth.cgi?api=SYNO.API.Auth&method=Login&version=3&account=nibil&passwd=****session=SurveillanceStation&format=sid";
             // final URL url = new URL(loginUrl);
 
             URL url = new URL(apiurl);
